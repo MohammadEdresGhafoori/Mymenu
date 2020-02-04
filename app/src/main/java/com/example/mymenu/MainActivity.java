@@ -42,11 +42,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        switch (item.getItemId())
-        {
+        switch (item.getItemId()) {
             case R.id.green:
-                for(int i=0;i<n;i++)
-                {
+                for (int i = 0; i < n; i++) {
                     items.get(i).setEnabled(true);
                 }
                 back.setEnabled(false);
@@ -64,5 +62,5 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return false;
         }
-    }
-}
+    }    }
+
